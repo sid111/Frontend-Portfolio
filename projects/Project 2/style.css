@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d7cbd7;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.apply {
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgb(114, 100, 114);
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 10px;
+}
+
+.apply h1{
+    text-align: center;
+}
+
+.main_form {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.data_entries {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid #6f686e;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline-color: rgb(203, 53, 148);
+}
+
+.button {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 20px;
+}
+button {
+  background-color: rgb(3, 20, 6);
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color: #ccc;
+  border: 2px solid red;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.address_entry {
+  grid-column: 1 / span 2;
+}
+.address_entry textarea {
+  width: 100%;
+}

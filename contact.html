@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="projects.html"><li>Projects</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact -->
+  <section class="contact">
+    <h1>Contact Me</h1>
+    <p>Got an idea, project, or opportunity? Fill the form below or connect on socials.</p>
+
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="formStatus"></div>
+
+    <div class="socials">
+      <a href="https://github.com/sid111/"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shaaz-siddiqi-0476539a/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/TheSaiyan101"><i class="fab fa-twitter"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
