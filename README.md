@@ -8,18 +8,11 @@ dark gradient theme with teal accents and is designed to be responsive across de
 
 ## Technical Details
 
-• HTML: Semantic structure with <header>, <nav>, <main>, <section>, and <footer>
-elements. The Home page utilizes slides with background images, the Projects page
-displays a 3×3 responsive grid of project cards, and the Contact page includes a
-form and social icons.
+• HTML: Semantic structure with <header>, <nav>, <main>, <section>, and <footer> elements. The Home page utilizes slides with background images, the Projects page displays a 3×3 responsive grid of project cards, and the Contact page includes a form and social icons.
 
-• CSS: Centralized styling in style.css with dark gradient backgrounds and teal
-highlights. Responsive layout achieved using CSS Grid and media queries. Buttons,
-cards, and form elements are styled with hover effects.
+• CSS: Centralized styling in style.css with dark gradient backgrounds and teal highlights. Responsive layout achieved using CSS Grid and media queries. Buttons, cards, and form elements are styled with hover effects.
 
-• JavaScript: The script.js file handles slider autoplay, navigation controls, and
-contact form validation. No external JavaScript frameworks are used, ensuring a
-lightweight and portable design.
+• JavaScript: The script.js file handles slider autoplay, navigation controls, and contact form validation. No external JavaScript frameworks are used, ensuring a lightweight and portable design.
 
 ## Challenges & Solutions
 
